@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Tarsier Editor Tools",
+	"Description": "Collection of Tarsier Editor Tools",
+	"Category": "Tarsier",
+	"CreatedBy": "Tarsier Studios",
+	"CreatedByURL": "http://www.tarsier.se",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Editor Visibility Tool",
+	"Description": "A tool which allows the user to batch update the visibility based on presets",
+	"Category": "Tarsier",
+	"CreatedBy": "Tarsier Studios",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "UIExtensions",
+			"Enabled": true
+		}
+	]
+}

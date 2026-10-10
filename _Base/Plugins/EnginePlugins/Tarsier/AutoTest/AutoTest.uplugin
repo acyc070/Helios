@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Auto Test",
+	"Description": "Provides Automation Testing functionality useful for Tarsier projects.",
+	"Category": "Tarsier",
+	"CreatedBy": "Tarsier Studios",
+	"CreatedByURL": "http://tarsier.se/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AutoTestRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MapManager",
+			"Enabled": true
+		},
+		{
+			"Name": "TarsierUtilities",
+			"Enabled": true
+		}
+	]
+}

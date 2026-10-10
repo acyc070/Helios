@@ -1,0 +1,5 @@
+#include "ChalkboardPerformanceTestBulkStructManualSerialization.h"
+
+FChalkboardPerformanceTestBulkStructManualSerialization::FChalkboardPerformanceTestBulkStructManualSerialization() {
+}
+

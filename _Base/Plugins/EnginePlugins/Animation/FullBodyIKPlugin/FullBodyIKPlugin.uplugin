@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.0.0",
+	"FriendlyName": "BIK - Full Body IK",
+	"Description": "Full Body Inverse Kinematics for characters.",
+	"Category": "Animation",
+	"CreatedBy": "Anomotion Interactive Inc.",
+	"CreatedByURL": "http://www.anomotion.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "BIKRig",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}

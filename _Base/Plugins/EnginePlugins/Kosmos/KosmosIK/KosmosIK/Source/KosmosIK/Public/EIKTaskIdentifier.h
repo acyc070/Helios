@@ -1,0 +1,24 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EIKTaskIdentifier.generated.h"
+
+UENUM()
+enum class EIKTaskIdentifier : uint8 {
+    IK_TARGET_INVALID,
+    IK_TARGET_LEFT_FOOT,
+    IK_TARGET_RIGHT_FOOT,
+    IK_TARGET_HEAD,
+    IK_TARGET_PELVIS,
+    IK_TARGET_UPPER_BODY,
+    IK_TARGET_LEFT_HAND,
+    IK_TARGET_RIGHT_HAND,
+    IK_TARGET_NECK,
+    IK_TARGET_BOTH_HANDS,
+    IK_CUSTOM_TARGET_1,
+    IK_CUSTOM_TARGET_2,
+    IK_CUSTOM_TARGET_3,
+    IK_CUSTOM_TARGET_4,
+    IK_CUSTOM_TARGET_5,
+    IK_MAX_TASK,
+};
+

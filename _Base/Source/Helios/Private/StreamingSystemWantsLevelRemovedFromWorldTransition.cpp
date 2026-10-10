@@ -1,0 +1,6 @@
+#include "StreamingSystemWantsLevelRemovedFromWorldTransition.h"
+
+UStreamingSystemWantsLevelRemovedFromWorldTransition::UStreamingSystemWantsLevelRemovedFromWorldTransition() {
+}
+
+

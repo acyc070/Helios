@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Tarsier Statistics",
+	"Description": "A module that allows game projects to define, update and query statistical data.",
+	"Category": "Tarsier",
+	"CreatedBy": "Tarsier Studios",
+	"CreatedByURL": "http://tarsier.se/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "StatsRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TarsierUtilities",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,161 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{ECE85651-45C9-77A3-59CF-DA9006EDC481}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UnrealEd",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "Helios",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"UMG",
+				"LevelSequence"
+			]
+		},
+		{
+			"Name": "DetailCustomizations",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "CameraSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "TarsierSlate",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintEditorHelpers",
+			"Enabled": true
+		},
+		{
+			"Name": "TarsierUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintConditionals",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorTests",
+			"Enabled": true
+		},
+		{
+			"Name": "MapManager",
+			"Enabled": true
+		},
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "TarsierTools",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemGOG",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"XboxOne",
+				"PS4"
+			]
+		},
+		{
+			"Name": "AutoTest",
+			"Enabled": true
+		},
+		{
+			"Name": "ActorReferencesViewer",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorVisibilityTool",
+			"Enabled": true
+		},
+		{
+			"Name": "RawInput",
+			"Enabled": true
+		},
+		{
+			"Name": "FullBodyIKPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "KosmosBIK",
+			"Enabled": true
+		},
+		{
+			"Name": "KosmosIK",
+			"Enabled": true
+		},
+		{
+			"Name": "KosmosGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "NinjaCharacter",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d91461c6f5544d118198d6acaddb48e8"
+		},
+		{
+			"Name": "Kosmos",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamController",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor",
+		"PS5",
+		"XSX",
+		"WinGDK",
+		"XboxOneGDK"
+	]
+}

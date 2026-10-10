@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.8.6",
+	"FriendlyName": "Online Subsystem GOG",
+	"Description": "GOG online features",
+	"Category": "Online Platform",
+	"CreatedBy": "GOG Galaxy SDK Dev Team",
+	"CreatedByURL": "https://www.gog.com/galaxy",
+	"DocsURL": "https://devportal.gog.com/panel/components/sdk",
+	"MarketplaceURL": "",
+	"SupportURL": "support@gog.com",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"Mac",
+		"XboxOne",
+		"PS4"
+	],
+	"Modules": [
+		{
+			"Name": "OnlineSubsystemGOG",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Mac",
+				"XboxOne",
+				"PS4"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		}
+	]
+}

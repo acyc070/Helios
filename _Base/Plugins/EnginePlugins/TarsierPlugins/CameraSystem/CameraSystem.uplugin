@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "CameraSystem",
+	"Description": "Camera system based on volumes",
+	"Category": "Tarsier Plugins",
+	"CreatedBy": "Tarsier Studios",
+	"CreatedByURL": "http://tarsier.se/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CameraSystemRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TarsierUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "UIExtensions",
+			"Enabled": true
+		}
+	]
+}

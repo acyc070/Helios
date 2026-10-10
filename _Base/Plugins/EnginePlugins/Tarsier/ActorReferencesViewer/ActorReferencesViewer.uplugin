@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1",
+	"FriendlyName": "ActorReferencesViewer",
+	"Description": "Adds a show flag that toggles the display of addition in-world information about selected Actors' references.",
+	"Category": "Tarsier",
+	"CreatedBy": "Tarsier Studios",
+	"CreatedByURL": "tarsier.se",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "TarsierUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "UIExtensions",
+			"Enabled": true
+		}
+	]
+}
