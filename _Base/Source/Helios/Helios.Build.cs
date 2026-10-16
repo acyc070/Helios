@@ -25,6 +25,7 @@ public class Helios : ModuleRules {
             "TarsierUtilities",
             "TarsierWwiseRuntimeExtension",
             "UMG",
+	    "DeveloperSettings",
         });
     }
 }

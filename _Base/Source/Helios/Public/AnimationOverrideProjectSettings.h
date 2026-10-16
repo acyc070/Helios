@@ -4,7 +4,7 @@
 #include "AnimationOverrideProjectSettings.generated.h"
 
 UCLASS(Blueprintable, Config=Game)
-class UAnimationOverrideProjectSettings : public UObject {
+class UAnimationOverrideProjectSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(Config, EditAnywhere, meta=(AllowPrivateAccess=true))

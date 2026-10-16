@@ -4,7 +4,7 @@
 #include "KosmosGameSettings.generated.h"
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class HELIOS_API UKosmosGameSettings : public UObject {
+class HELIOS_API UKosmosGameSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
 private:

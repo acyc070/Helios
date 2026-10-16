@@ -5,7 +5,7 @@
 #include "AchievementsProjectSettings.generated.h"
 
 UCLASS(Blueprintable, Config=Game)
-class HELIOS_API UAchievementsProjectSettings : public UObject {
+class HELIOS_API UAchievementsProjectSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

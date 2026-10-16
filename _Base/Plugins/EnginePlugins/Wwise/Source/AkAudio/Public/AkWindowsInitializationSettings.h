@@ -7,7 +7,7 @@
 #include "AkWindowsInitializationSettings.generated.h"
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class AKAUDIO_API UAkWindowsInitializationSettings : public UObject {
+class AKAUDIO_API UAkWindowsInitializationSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

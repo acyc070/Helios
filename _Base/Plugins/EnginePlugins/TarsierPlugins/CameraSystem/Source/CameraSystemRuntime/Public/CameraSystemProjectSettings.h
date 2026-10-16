@@ -10,7 +10,7 @@
 #include "CameraSystemProjectSettings.generated.h"
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class CAMERASYSTEMRUNTIME_API UCameraSystemProjectSettings : public UObject {
+class CAMERASYSTEMRUNTIME_API UCameraSystemProjectSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, SimpleDisplay, meta=(AllowPrivateAccess=true))

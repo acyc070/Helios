@@ -8,7 +8,7 @@ class APawn;
 class APlayerController;
 
 UCLASS(Blueprintable, Config=Game)
-class HELIOS_API UMarketingProjectSettings : public UObject {
+class HELIOS_API UMarketingProjectSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

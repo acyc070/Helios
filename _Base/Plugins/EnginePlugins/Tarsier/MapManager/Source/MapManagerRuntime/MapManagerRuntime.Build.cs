@@ -10,6 +10,7 @@ public class MapManagerRuntime : ModuleRules {
             "Core",
             "CoreUObject",
             "Engine",
+	    "DeveloperSettings",
         });
     }
 }

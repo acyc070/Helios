@@ -6,7 +6,7 @@
 class UMaterialParameterCollection;
 
 UCLASS(Blueprintable, Config=Game)
-class HELIOS_API UMaterialManagerProjectSettings : public UObject {
+class HELIOS_API UMaterialManagerProjectSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

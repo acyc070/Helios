@@ -15,6 +15,7 @@ public class AkAudio : ModuleRules {
             "SlateCore",
             "TarsierUtilities",
             "UMG",
+	    "DeveloperSettings",
         });
     }
 }

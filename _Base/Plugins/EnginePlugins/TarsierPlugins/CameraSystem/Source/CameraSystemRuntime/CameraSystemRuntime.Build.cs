@@ -11,6 +11,7 @@ public class CameraSystemRuntime : ModuleRules {
             "CoreUObject",
             "Engine",
             "TarsierUtilities",
+	    "DeveloperSettings",
         });
     }
 }

@@ -4,7 +4,7 @@
 #include "ObjectSelectionProjectSettings.generated.h"
 
 UCLASS(Blueprintable, Config=Game)
-class HELIOS_API UObjectSelectionProjectSettings : public UObject {
+class HELIOS_API UObjectSelectionProjectSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

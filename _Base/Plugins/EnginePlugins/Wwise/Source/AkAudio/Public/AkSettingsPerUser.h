@@ -6,7 +6,7 @@
 #include "AkSettingsPerUser.generated.h"
 
 UCLASS(Blueprintable, Config=EditorPerProjectUserSettings)
-class AKAUDIO_API UAkSettingsPerUser : public UObject {
+class AKAUDIO_API UAkSettingsPerUser : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

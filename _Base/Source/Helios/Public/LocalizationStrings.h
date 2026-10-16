@@ -7,7 +7,7 @@
 #include "LocalizationStrings.generated.h"
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class ULocalizationStrings : public UObject {
+class ULocalizationStrings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

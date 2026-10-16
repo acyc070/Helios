@@ -8,7 +8,7 @@ class UStreamingSystemsProjectSettings;
 class UWorld;
 
 UCLASS(Blueprintable, Config=Game)
-class HELIOS_API UStreamingSystemsProjectSettings : public UObject {
+class HELIOS_API UStreamingSystemsProjectSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

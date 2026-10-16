@@ -9,7 +9,7 @@ class AControlledPawn;
 class UDeathHandlerDataAsset;
 
 UCLASS(Blueprintable, Config=Game)
-class HELIOS_API USpawningAndDeathSystemsProjectSettings : public UObject {
+class HELIOS_API USpawningAndDeathSystemsProjectSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

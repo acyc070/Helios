@@ -7,7 +7,7 @@
 class AActor;
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class HELIOS_API ULevelsBehaviorSettings : public UObject {
+class HELIOS_API ULevelsBehaviorSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -10,7 +10,7 @@
 class UPhysicalMaterial;
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class AKAUDIO_API UAkSettings : public UObject {
+class AKAUDIO_API UAkSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

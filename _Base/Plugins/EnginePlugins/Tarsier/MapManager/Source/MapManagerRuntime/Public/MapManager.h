@@ -6,7 +6,7 @@
 class UWorld;
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class MAPMANAGERRUNTIME_API UMapManager : public UObject {
+class MAPMANAGERRUNTIME_API UMapManager : public UDeveloperSettings {
     GENERATED_BODY()
 public:
 private:
